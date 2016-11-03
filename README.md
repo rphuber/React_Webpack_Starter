@@ -11,3 +11,12 @@ How to use:
 - change directory into your project ```cd <your_project_name>```
 - install npm dependencies ```npm install```
 - see scripts for options from this point
+
+Things to add:
+- testing
+- routing
+- scripts to add what other dependencies to add
+	- PostCSS
+	- Redux
+	- Redux-Sagas
+	- reselect
