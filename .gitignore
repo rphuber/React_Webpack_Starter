@@ -1,0 +1,9 @@
+# Ignore the auto-generated stuff
+coverage
+build
+node_modules
+stats.json
+
+# ignore the junk
+.DS_Store
+npm-debug.log
