@@ -5,7 +5,7 @@ What this includes:
 - Webpack (v.2)
 - React
 - Redux (w/ react-redux)
-- React-Router (v.4) (on redux-sass-reactRouter branch)
+- React-Router (v.4) _on redux-sass-reactRouter branch_
 - Sass (w/ css-modules)
 
 How to use:
