@@ -7,17 +7,9 @@
     "build": "webpack",
     "serve": "webpack-dev-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rphuber/React_Webpack_Starter.git"
-  },
   "keywords": [],
   "author": "Ryan Huber",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rphuber/React_Webpack_Starter/issues"
-  },
-  "homepage": "https://github.com/rphuber/React_Webpack_Starter#readme",
   "dependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
