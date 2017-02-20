@@ -4,8 +4,8 @@ React with Webpack Starter Files
 What this includes:
 - Webpack (v.2)
 - React
-- Redux (w/react-redux)
-- Sass
+- Redux (w/ react-redux)
+- Sass (w/ css-modules)
 
 How to use:
 - clone this repo ```git clone git@github.com:rphuber/React_Webpack_Starter.git```
