@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 import reducers from './reducers';
 
-import routes, { RouteWithSubRoutes } from './routes';
+import routes, { RoutesWithSubRoutes } from './routes';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
@@ -15,7 +15,7 @@ render(
 		<Router>
 			<div>
 				{ routes.map((route, i) => (
-					<RouteWithSubRoutes key={i} {...route} />
+					<RoutesWithSubRoutes key={i} {...route} />
 				))}
 			</div>
 		</Router>
