@@ -5,6 +5,7 @@ What this includes:
 - Webpack (v.2)
 - React
 - Redux (w/ react-redux)
+- React-Router (v.4)
 - Sass (w/ css-modules)
 
 How to use:
