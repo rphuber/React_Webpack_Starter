@@ -8,12 +8,13 @@ const routes = [
 		path: '/',
 		component: App
 	}
-]
+];
+
 
 export default routes;
 
-export const RouteWithSubRoutes = (route) => (
-	<Route path={route.path} render={ props => (
+export const RoutesWithSubRoutes = (route) => (
+	<Route path={route.path} exact={route.exact} render={ props => (
 		<route.component {...props} routes={route.routes} />
 	)}/>
 );

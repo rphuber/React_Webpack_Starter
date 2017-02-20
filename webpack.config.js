@@ -46,6 +46,7 @@ module.exports = (env) => {
 			})
 		],
 		devServer: {
+			historyApiFallback: true,
 			contentBase: resolve(__dirname, './build'),
 			port: 8081
 		}
