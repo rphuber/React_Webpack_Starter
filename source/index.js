@@ -2,18 +2,22 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import reducers from './reducers';
 
-import App from './components/App';
+import routes, { RouteWithSubRoutes } from './routes';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 render(
 	<Provider store={createStoreWithMiddleware(reducers)}>
 		<Router>
-			<Route path='/' component={App} />
+			<div>
+				{ routes.map((route, i) => (
+					<RouteWithSubRoutes key={i} {...route} />
+				))}
+			</div>
 		</Router>
 	</Provider>,
 	document.querySelector('.container')
