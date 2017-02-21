@@ -6,6 +6,7 @@ module.exports = (env) => {
 		entry: './source/index.js',
 		output: {
 			path: resolve(__dirname, './build'),
+			publicPath: '/',
 			filename: 'bundle.js'
 		},
 		module: {
